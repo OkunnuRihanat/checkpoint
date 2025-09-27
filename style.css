@@ -1,0 +1,33 @@
+body{
+    margin: 0%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 12rem;
+}
+
+.navbar h2{
+font-weight: 900;
+font-size: 27px;
+margin: 0;
+}
+
+.navbar ul{
+display: flex;
+justify-content: space-between;
+list-style: none;
+}
+
+.navbar li{
+    padding: 0% 10px;
+    display: inline;
+}
+
+
+.navbar li:hover{
+    color: brown;
+    cursor: pointer;
+}
